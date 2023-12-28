@@ -8,3 +8,18 @@
 body{
     zoom:90%
 }
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    /* Your styles for iPhones go here */
+
+    .logo_mainp{
+        width:49vw;
+        border: 1px solid white;
+        border-radius: 10px;
+        background: white;
+        padding: 10px;
+    }
+}
